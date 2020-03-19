@@ -1,0 +1,26 @@
+T: Query sending: at time=1584600327.329557
+
+R: Received query at agg  at time=1584600327.3356764
+
+Difference (seconds): 0.0061194896698
+T: Sensor node 1 transmitting at time=1584600331.7909884
+
+R: Aggregator received sensor data from ('10.0.0.2', 58587) at time=1584600331.7960036
+
+Difference (seconds): 0.0050151348114
+T: Sensor node 0 transmitting at time=1584600331.8007572
+
+R: Aggregator received sensor data from ('10.0.0.1', 54469) at time=1584600331.8060114
+
+Difference (seconds): 0.00525426864624
+T: Sensor node 2 transmitting at time=1584600331.8291545
+
+R: Aggregator received sensor data from ('10.0.0.3', 53530) at time=1584600331.8346
+
+Difference (seconds): 0.00544548034668
+T: Transmitting aggregated value at time=1584600331.8385017
+
+R: Query Received: at time=1584600331.8399642
+
+Difference (seconds): 0.00146245956421
+Convolution time (seconds): 0.04228544235229492

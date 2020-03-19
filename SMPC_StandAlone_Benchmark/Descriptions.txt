@@ -1,0 +1,8 @@
+-benchmark.sc-
+	File containing implemented MPC oblivious functions for benchmarking in Sharemind
+
+-aby.sc -
+	Syscall to call ABY protocol in Sharemind
+
+-spdz_fresco -
+	Syscall to fall SPDZ protocol in Sharemind

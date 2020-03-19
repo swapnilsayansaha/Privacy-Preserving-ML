@@ -1,0 +1,26 @@
+compnode.py -
+  This is a computation node, which waits for input from an input node
+  (called inode.py).  It will communicate to other computation nodes
+  when it receives a message.
+
+  These computation nodes will communicate with each when they receive
+  an input from the inodes - since this was a proof of concept
+  example, all it does it send simple hellos to each other.
+
+inode.py -
+  This is an input node, and its sole purpose is to transmit a
+  message to a computation node.
+
+custom_topo.py -
+  This is a custom mininet topology comprised of three input nodes
+  and three computation nodes, with network switches in between
+
+mn_tester.py -
+  This is a simulator file that tests the functionality of the computation
+  and input nodes as if they were nodes on a network.
+
+  It initializes Mininet, sets up the hosts and topology according to
+  custom_topo.py.  After that, it will set up servers for listening,
+  which means it runs the compnode.py files.  These servers will wait
+  for input from inode.py.  This simulation then initializes these
+  input nodes, which send data to the computation nodes.
