@@ -1,0 +1,154 @@
+node 0: 10.0.0.1
+node 1: 10.0.0.2
+cnode1: Complexities: 
+
+cnode1: Boolean Sharing: ANDs: 0 (1-bit) ; Depth: 0
+
+cnode1: Total Vec AND: 0
+
+cnode1: Total Non-Vec AND: 0
+
+cnode1: XOR vals: 0 gates: 0
+
+cnode1: Comb gates: 0, CombStruct gates: 0, Perm gates: 0, Subset gates: 0, Split gates: 0
+
+cnode1: Yao: ANDs: 32 ; Depth: 3
+
+cnode1: Reverse Yao: ANDs: 0 ; Depth: 0
+
+cnode1: Arithmetic Sharing: MULs: 0 ; Depth: 0
+
+cnode1: SP-LUT Sharing: OT-gates: Total OT gates = 0; Depth: 1
+
+cnode1: Total number of gates: 194 Total depth: 3
+
+cnode1: Timings: 
+
+cnode1: Total =		322.715 ms
+
+cnode1: Init =		0.03 ms
+
+cnode1: CircuitGen =	0.08 ms
+
+cnode1: Network =	466.153 ms
+
+cnode1: BaseOTs =	1433.48 ms
+
+cnode1: Setup =		76.093 ms
+
+cnode1: OTExtension =	75.689 ms
+
+cnode1: Garbling =	0.278 ms
+
+cnode1: Online =	246.616 ms
+
+cnode1: 
+
+cnode1: Communication: 
+
+cnode1: Total Sent / Rcv	2606  bytes / 2114 bytes
+
+cnode1: BaseOTs Sent / Rcv	49956  bytes / 49956 bytes
+
+cnode1: Setup Sent / Rcv	1052  bytes / 2082 bytes
+
+cnode1: OTExtension Sent / Rcv	9  bytes / 2082 bytes
+
+cnode1: Garbling Sent / Rcv	1043  bytes / 0 bytes
+
+cnode1: Online Sent / Rcv	1554  bytes / 32 bytes
+
+cnode1: Testing Millionaire's Problem in Yao sharing: 
+
+cnode1: 
+
+cnode1: Alice Money:	1831784777
+
+cnode1: Bob Money:	754768777
+
+cnode1: Circuit Result:	ALICE
+
+cnode1: Verify Result: 	ALICE
+
+cnode1: Circuit build time (ms): 0
+
+cnode1: Circuit execution time (ms): 2224
+
+cnode1: Total Time (ms): 2224
+
+cnode2: Complexities: 
+
+cnode2: Boolean Sharing: ANDs: 0 (1-bit) ; Depth: 0
+
+cnode2: Total Vec AND: 0
+
+cnode2: Total Non-Vec AND: 0
+
+cnode2: XOR vals: 0 gates: 0
+
+cnode2: Comb gates: 0, CombStruct gates: 0, Perm gates: 0, Subset gates: 0, Split gates: 0
+
+cnode2: Yao: ANDs: 32 ; Depth: 3
+
+cnode2: Reverse Yao: ANDs: 0 ; Depth: 0
+
+cnode2: Arithmetic Sharing: MULs: 0 ; Depth: 0
+
+cnode2: SP-LUT Sharing: OT-gates: Total OT gates = 0; Depth: 1
+
+cnode2: Total number of gates: 194 Total depth: 3
+
+cnode2: Timings: 
+
+cnode2: Total =		383.906 ms
+
+cnode2: Init =		0.031 ms
+
+cnode2: CircuitGen =	0.076 ms
+
+cnode2: Network =	382.761 ms
+
+cnode2: BaseOTs =	1513.83 ms
+
+cnode2: Setup =		136.205 ms
+
+cnode2: OTExtension =	122.25 ms
+
+cnode2: Garbling =	13.867 ms
+
+cnode2: Online =	247.696 ms
+
+cnode2: 
+
+cnode2: Communication: 
+
+cnode2: Total Sent / Rcv	2114  bytes / 2615 bytes
+
+cnode2: BaseOTs Sent / Rcv	49956  bytes / 49956 bytes
+
+cnode2: Setup Sent / Rcv	2082  bytes / 1061 bytes
+
+cnode2: OTExtension Sent / Rcv	2082  bytes / 9 bytes
+
+cnode2: Garbling Sent / Rcv	0  bytes / 1052 bytes
+
+cnode2: Online Sent / Rcv	32  bytes / 1554 bytes
+
+cnode2: Testing Millionaire's Problem in Yao sharing: 
+
+cnode2: 
+
+cnode2: Alice Money:	1831784777
+
+cnode2: Bob Money:	754768777
+
+cnode2: Circuit Result:	ALICE
+
+cnode2: Verify Result: 	ALICE
+
+cnode2: Circuit build time (ms): 0
+
+cnode2: Circuit execution time (ms): 2280
+
+cnode2: Total Time (ms): 2280
+

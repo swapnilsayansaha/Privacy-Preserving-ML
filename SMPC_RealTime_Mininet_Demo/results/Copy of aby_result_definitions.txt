@@ -1,0 +1,23 @@
+Timings:
+
+Inferred from github.com/encryptogroup/ABY/src/abycore/aby/abypart.cpp
+
+Total - this refers to the amount of time spent on spent executing the garbled circuits,
+        (setup , OT (oblivious transfer) extension, garbling and executing (online)),
+        although real number here actually seems diverge from the definition
+
+Init - Setting up for some event, I'm not really sure what
+
+CircuitGen - generating the circuit for Yao's Garbled Circuits
+
+Network - Time to establish a network connection
+
+BaseOTs - time to precompute for something called Naor-Pinkas base Oblivious Transfer
+
+Setup - Time for Setting up the shares
+
+OTExtension - I'm not sure what the OT extension is
+
+Garbling - Time to perform Yao's Garbled Circuits
+
+Online - Time to evaluate the circuit

@@ -1,0 +1,594 @@
+
+
+Starting simulation with parameters bandwidth=1.0 latency=0ms encrypted
+
+internal: query time to encrypt weights:  0.0002334117889404297s 
+Query sending: at time=1584682429.865329
+Received query at agg  at time=1584682429.8709166
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.156447172164917s 
+Sensor node 0 transmitting at time=1584682432.6411698
+Aggregator received sensor data from ('10.0.0.1', 47317) at time=1584682432.6468294
+internal: Sensor node encrypt time 0.16327500343322754s 
+Sensor node 2 transmitting at time=1584682432.652655
+Aggregator received sensor data from ('10.0.0.3', 36113) at time=1584682432.6578362
+internal: Sensor node encrypt time 0.16277503967285156s 
+Sensor node 1 transmitting at time=1584682432.6737835
+Aggregator received sensor data from ('10.0.0.2', 51229) at time=1584682432.6786547
+internal: Convolution time: (seconds) 0.03201103210449219s 
+Transmitting aggregated value at time=1584682432.6792223
+Query Received: at time=1584682432.6850383
+internal: Query Time for decrypt 0.059229135513305664s 
+internal: Simulation total time:  0.8795135021209717s 
+
+
+Starting simulation with parameters bandwidth=1.0 latency=0ms encrypted
+
+internal: query time to encrypt weights:  0.0005052089691162109s 
+Query sending: at time=1584682555.0275776
+Received query at agg  at time=1584682555.03761
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.3082733154296875s 
+Sensor node 0 transmitting at time=1584682558.4747925
+Aggregator received sensor data from ('10.0.0.1', 40242) at time=1584682558.484824
+internal: Sensor node encrypt time 0.31522321701049805s 
+Sensor node 1 transmitting at time=1584682558.4992166
+Aggregator received sensor data from ('10.0.0.2', 39691) at time=1584682558.5079405
+internal: Sensor node encrypt time 0.32894206047058105s 
+Sensor node 2 transmitting at time=1584682558.5104895
+Aggregator received sensor data from ('10.0.0.3', 56923) at time=1584682558.522092
+internal: Convolution time: (seconds) 0.03776359558105469s 
+Transmitting aggregated value at time=1584682558.5231097
+Query Received: at time=1584682558.5329237
+internal: Query Time for decrypt 0.12843012809753418s 
+internal: Simulation total time:  1.6348328590393066s 
+
+
+Starting simulation with parameters bandwidth=1.0 latency=0ms encrypted
+
+internal: query time to encrypt weights:  0.0004413127899169922s 
+Query sending: at time=1584682584.191648
+Received query at agg  at time=1584682584.2019823
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.2927572727203369s 
+internal: Sensor node encrypt time 0.29822516441345215s 
+Sensor node 2 transmitting at time=1584682587.6723764
+Aggregator received sensor data from ('10.0.0.3', 34806) at time=1584682587.6821291
+Sensor node 1 transmitting at time=1584682587.682531
+internal: Sensor node encrypt time 0.32082629203796387s 
+Sensor node 0 transmitting at time=1584682587.6877165
+Aggregator received sensor data from ('10.0.0.2', 42138) at time=1584682587.7029138
+Aggregator received sensor data from ('10.0.0.1', 45375) at time=1584682587.7136927
+internal: Convolution time: (seconds) 0.031622886657714844s 
+Transmitting aggregated value at time=1584682587.7142878
+Query Received: at time=1584682587.7283368
+internal: Query Time for decrypt 0.14362001419067383s 
+internal: Simulation total time:  1.681436538696289s 
+
+
+Starting simulation with parameters bandwidth=1.0 latency=5ms encrypted
+
+internal: query time to encrypt weights:  0.0005121231079101562s 
+Query sending: at time=1584682620.132954
+Received query at agg  at time=1584682620.2098815
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.32216715812683105s 
+Sensor node 0 transmitting at time=1584682623.6077127
+internal: Sensor node encrypt time 0.3132784366607666s 
+Sensor node 1 transmitting at time=1584682623.6186738
+internal: Sensor node encrypt time 0.34079647064208984s 
+Sensor node 2 transmitting at time=1584682623.6579537
+Aggregator received sensor data from ('10.0.0.1', 52290) at time=1584682623.6881976
+Aggregator received sensor data from ('10.0.0.2', 43754) at time=1584682623.6996675
+Aggregator received sensor data from ('10.0.0.3', 36988) at time=1584682623.7411067
+internal: Convolution time: (seconds) 0.05305743217468262s 
+Transmitting aggregated value at time=1584682623.7417126
+Query Received: at time=1584682623.7667708
+internal: Query Time for decrypt 0.1370701789855957s 
+internal: Simulation total time:  1.7720296382904053s 
+
+
+Starting simulation with parameters bandwidth=1.0 latency=5ms encrypted
+
+internal: query time to encrypt weights:  0.000423431396484375s 
+Query sending: at time=1584682636.2145169
+Received query at agg  at time=1584682636.289107
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.29139208793640137s 
+Sensor node 1 transmitting at time=1584682639.6588757
+internal: Sensor node encrypt time 0.2808854579925537s 
+Sensor node 2 transmitting at time=1584682639.6790433
+internal: Sensor node encrypt time 0.3061940670013428s 
+Sensor node 0 transmitting at time=1584682639.715746
+Aggregator received sensor data from ('10.0.0.2', 51121) at time=1584682639.7405837
+Aggregator received sensor data from ('10.0.0.3', 34633) at time=1584682639.7595694
+Aggregator received sensor data from ('10.0.0.1', 32912) at time=1584682639.794758
+internal: Convolution time: (seconds) 0.0545954704284668s 
+Transmitting aggregated value at time=1584682639.7957609
+Query Received: at time=1584682639.8254464
+internal: Query Time for decrypt 0.1332392692565918s 
+internal: Simulation total time:  1.7451863288879395s 
+
+
+Starting simulation with parameters bandwidth=1.0 latency=5ms encrypted
+
+internal: query time to encrypt weights:  0.0004627704620361328s 
+Query sending: at time=1584682649.785976
+Received query at agg  at time=1584682649.8639805
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.3016364574432373s 
+Sensor node 0 transmitting at time=1584682653.2315528
+internal: Sensor node encrypt time 0.3213539123535156s 
+Sensor node 2 transmitting at time=1584682653.294643
+Aggregator received sensor data from ('10.0.0.1', 53184) at time=1584682653.3118782
+internal: Sensor node encrypt time 0.331989049911499s 
+Sensor node 1 transmitting at time=1584682653.318652
+Aggregator received sensor data from ('10.0.0.3', 40258) at time=1584682653.374268
+Aggregator received sensor data from ('10.0.0.2', 50962) at time=1584682653.399312
+internal: Convolution time: (seconds) 0.0878441333770752s 
+Transmitting aggregated value at time=1584682653.4002903
+Query Received: at time=1584682653.426529
+internal: Query Time for decrypt 0.1374199390411377s 
+internal: Simulation total time:  1.7789669036865234s 
+
+
+Starting simulation with parameters bandwidth=1.0 latency=20ms encrypted
+
+internal: query time to encrypt weights:  0.00039839744567871094s 
+Query sending: at time=1584682665.9060984
+Received query at agg  at time=1584682666.1612346
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.30758023262023926s 
+Sensor node 0 transmitting at time=1584682669.3820662
+internal: Sensor node encrypt time 0.29120302200317383s 
+Sensor node 2 transmitting at time=1584682669.3992038
+internal: Sensor node encrypt time 0.31360936164855957s 
+Sensor node 1 transmitting at time=1584682669.4081953
+Aggregator received sensor data from ('10.0.0.1', 35373) at time=1584682669.641316
+Aggregator received sensor data from ('10.0.0.3', 37300) at time=1584682669.6583686
+Aggregator received sensor data from ('10.0.0.2', 48368) at time=1584682669.6709085
+internal: Convolution time: (seconds) 0.029915332794189453s 
+Transmitting aggregated value at time=1584682669.6718223
+Query Received: at time=1584682669.760197
+internal: Query Time for decrypt 0.04257774353027344s 
+internal: Simulation total time:  1.8976483345031738s 
+
+
+Starting simulation with parameters bandwidth=1.0 latency=20ms encrypted
+
+internal: query time to encrypt weights:  0.0003972053527832031s 
+Query sending: at time=1584682679.6543183
+Received query at agg  at time=1584682679.9084072
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.30144619941711426s 
+Sensor node 2 transmitting at time=1584682683.106158
+internal: Sensor node encrypt time 0.3058900833129883s 
+Sensor node 0 transmitting at time=1584682683.108556
+internal: Sensor node encrypt time 0.31379127502441406s 
+Sensor node 1 transmitting at time=1584682683.1123705
+Aggregator received sensor data from ('10.0.0.3', 48422) at time=1584682683.3649814
+Aggregator received sensor data from ('10.0.0.1', 51290) at time=1584682683.3672984
+Aggregator received sensor data from ('10.0.0.2', 59319) at time=1584682683.3732526
+internal: Convolution time: (seconds) 0.008844852447509766s 
+Transmitting aggregated value at time=1584682683.374284
+Query Received: at time=1584682683.4590936
+internal: Query Time for decrypt 0.044341325759887695s 
+internal: Simulation total time:  1.8500633239746094s 
+
+
+Starting simulation with parameters bandwidth=1.0 latency=20ms encrypted
+
+internal: query time to encrypt weights:  0.0003848075866699219s 
+Query sending: at time=1584682692.1882527
+Received query at agg  at time=1584682692.443994
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.3034224510192871s 
+Sensor node 2 transmitting at time=1584682695.6506817
+internal: Sensor node encrypt time 0.302109956741333s 
+Sensor node 0 transmitting at time=1584682695.6757042
+internal: Sensor node encrypt time 0.31202244758605957s 
+Sensor node 1 transmitting at time=1584682695.713305
+Aggregator received sensor data from ('10.0.0.3', 58780) at time=1584682695.9157624
+Aggregator received sensor data from ('10.0.0.1', 33398) at time=1584682695.9375596
+Aggregator received sensor data from ('10.0.0.2', 52698) at time=1584682695.9719377
+internal: Convolution time: (seconds) 0.05649924278259277s 
+Transmitting aggregated value at time=1584682695.972719
+Query Received: at time=1584682696.0583942
+internal: Query Time for decrypt 0.030441999435424805s 
+internal: Simulation total time:  1.9016139507293701s 
+
+
+Starting simulation with parameters bandwidth=1.0 latency=50ms encrypted
+
+internal: query time to encrypt weights:  0.0003733634948730469s 
+Query sending: at time=1584682707.7790124
+Received query at agg  at time=1584682708.3953416
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.2996494770050049s 
+Sensor node 0 transmitting at time=1584682711.316328
+internal: Sensor node encrypt time 0.30141115188598633s 
+Sensor node 2 transmitting at time=1584682711.3321917
+internal: Sensor node encrypt time 0.3025851249694824s 
+Sensor node 1 transmitting at time=1584682711.345838
+Aggregator received sensor data from ('10.0.0.1', 38938) at time=1584682711.9333794
+Aggregator received sensor data from ('10.0.0.3', 58300) at time=1584682711.9469936
+Aggregator received sensor data from ('10.0.0.2', 48273) at time=1584682711.9609973
+internal: Convolution time: (seconds) 0.027962207794189453s 
+Transmitting aggregated value at time=1584682711.961795
+Query Received: at time=1584682712.1674433
+internal: Query Time for decrypt 0.03149127960205078s 
+internal: Simulation total time:  2.4208076000213623s 
+
+
+Starting simulation with parameters bandwidth=1.0 latency=50ms encrypted
+
+internal: query time to encrypt weights:  0.00039005279541015625s 
+Query sending: at time=1584682720.7532961
+Received query at agg  at time=1584682721.3704953
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.31006479263305664s 
+Sensor node 1 transmitting at time=1584682724.2193549
+internal: Sensor node encrypt time 0.3056514263153076s 
+Sensor node 0 transmitting at time=1584682724.2207253
+internal: Sensor node encrypt time 0.3072226047515869s 
+Sensor node 2 transmitting at time=1584682724.226935
+Aggregator received sensor data from ('10.0.0.2', 45186) at time=1584682724.8355756
+Aggregator received sensor data from ('10.0.0.1', 49790) at time=1584682724.8377745
+Aggregator received sensor data from ('10.0.0.3', 58073) at time=1584682724.842569
+internal: Convolution time: (seconds) 0.007456302642822266s 
+Transmitting aggregated value at time=1584682724.8435545
+Query Received: at time=1584682725.0486584
+internal: Query Time for decrypt 0.02968120574951172s 
+internal: Simulation total time:  2.325943946838379s 
+
+
+Starting simulation with parameters bandwidth=1.0 latency=50ms encrypted
+
+internal: query time to encrypt weights:  0.0005371570587158203s 
+Query sending: at time=1584682733.9880815
+Received query at agg  at time=1584682734.6051233
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.30420541763305664s 
+Sensor node 1 transmitting at time=1584682737.4720507
+internal: Sensor node encrypt time 0.3102281093597412s 
+Sensor node 2 transmitting at time=1584682737.4760046
+internal: Sensor node encrypt time 0.31063032150268555s 
+Sensor node 0 transmitting at time=1584682737.4856124
+Aggregator received sensor data from ('10.0.0.2', 42806) at time=1584682738.0895102
+Aggregator received sensor data from ('10.0.0.3', 49412) at time=1584682738.094126
+Aggregator received sensor data from ('10.0.0.1', 60519) at time=1584682738.103602
+internal: Convolution time: (seconds) 0.014503717422485352s 
+Transmitting aggregated value at time=1584682738.1045108
+Query Received: at time=1584682738.3112254
+internal: Query Time for decrypt 0.029796600341796875s 
+internal: Simulation total time:  2.3540232181549072s 
+
+
+Starting simulation with parameters bandwidth=0.512 latency=0ms encrypted
+
+internal: query time to encrypt weights:  0.0005042552947998047s 
+Query sending: at time=1584682754.1801255
+Received query at agg  at time=1584682754.188671
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.2570326328277588s 
+Sensor node 0 transmitting at time=1584682757.598143
+Aggregator received sensor data from ('10.0.0.1', 50191) at time=1584682757.609147
+internal: Sensor node encrypt time 0.2773306369781494s 
+Sensor node 1 transmitting at time=1584682757.6288998
+Aggregator received sensor data from ('10.0.0.2', 50632) at time=1584682757.6387343
+internal: Sensor node encrypt time 0.29250264167785645s 
+Sensor node 2 transmitting at time=1584682757.6895254
+Aggregator received sensor data from ('10.0.0.3', 48538) at time=1584682757.698343
+internal: Convolution time: (seconds) 0.0894315242767334s 
+Transmitting aggregated value at time=1584682757.699107
+Query Received: at time=1584682757.706544
+internal: Query Time for decrypt 0.12084031105041504s 
+internal: Simulation total time:  1.6484134197235107s 
+
+
+Starting simulation with parameters bandwidth=0.512 latency=0ms encrypted
+
+internal: query time to encrypt weights:  0.0003943443298339844s 
+Query sending: at time=1584682767.5926707
+Received query at agg  at time=1584682767.6012554
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.3107426166534424s 
+Sensor node 1 transmitting at time=1584682771.0710506
+Aggregator received sensor data from ('10.0.0.2', 48203) at time=1584682771.0809474
+internal: Sensor node encrypt time 0.32004284858703613s 
+Sensor node 0 transmitting at time=1584682771.0864313
+Aggregator received sensor data from ('10.0.0.1', 52455) at time=1584682771.097543
+internal: Sensor node encrypt time 0.3265852928161621s 
+Sensor node 2 transmitting at time=1584682771.112785
+Aggregator received sensor data from ('10.0.0.3', 39738) at time=1584682771.1226354
+internal: Convolution time: (seconds) 0.04210352897644043s 
+Transmitting aggregated value at time=1584682771.123561
+Query Received: at time=1584682771.130496
+internal: Query Time for decrypt 0.13468551635742188s 
+internal: Simulation total time:  1.673588752746582s 
+
+
+Starting simulation with parameters bandwidth=0.512 latency=0ms encrypted
+
+internal: query time to encrypt weights:  0.00042891502380371094s 
+Query sending: at time=1584682780.4277313
+Received query at agg  at time=1584682780.4375236
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.2837381362915039s 
+Sensor node 0 transmitting at time=1584682783.8930297
+Aggregator received sensor data from ('10.0.0.1', 39948) at time=1584682783.9029455
+internal: Sensor node encrypt time 0.2946314811706543s 
+Sensor node 1 transmitting at time=1584682783.9097095
+Aggregator received sensor data from ('10.0.0.2', 33086) at time=1584682783.9200962
+internal: Sensor node encrypt time 0.3150653839111328s 
+Sensor node 2 transmitting at time=1584682783.9212272
+Aggregator received sensor data from ('10.0.0.3', 50277) at time=1584682783.9407656
+internal: Convolution time: (seconds) 0.03806018829345703s 
+Transmitting aggregated value at time=1584682783.9414008
+Query Received: at time=1584682783.947933
+internal: Query Time for decrypt 0.13271403312683105s 
+internal: Simulation total time:  1.6539125442504883s 
+
+
+Starting simulation with parameters bandwidth=0.512 latency=5ms encrypted
+
+internal: query time to encrypt weights:  0.0004711151123046875s 
+Query sending: at time=1584682796.1421888
+Received query at agg  at time=1584682796.215863
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.30450892448425293s 
+Sensor node 0 transmitting at time=1584682799.5824456
+internal: Sensor node encrypt time 0.3044867515563965s 
+Sensor node 1 transmitting at time=1584682799.5838456
+internal: Sensor node encrypt time 0.3293478488922119s 
+Sensor node 2 transmitting at time=1584682799.6193578
+Aggregator received sensor data from ('10.0.0.2', 37005) at time=1584682799.667926
+Aggregator received sensor data from ('10.0.0.1', 59140) at time=1584682799.6685205
+Aggregator received sensor data from ('10.0.0.3', 44173) at time=1584682799.700977
+internal: Convolution time: (seconds) 0.03338170051574707s 
+Transmitting aggregated value at time=1584682799.7018974
+Query Received: at time=1584682799.7290564
+internal: Query Time for decrypt 0.14686226844787598s 
+internal: Simulation total time:  1.7347614765167236s 
+
+
+Starting simulation with parameters bandwidth=0.512 latency=5ms encrypted
+
+internal: query time to encrypt weights:  0.0003151893615722656s 
+Query sending: at time=1584682808.544039
+Received query at agg  at time=1584682808.6186154
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.29148316383361816s 
+Sensor node 2 transmitting at time=1584682811.9929063
+internal: Sensor node encrypt time 0.29921865463256836s 
+Sensor node 1 transmitting at time=1584682811.9936867
+internal: Sensor node encrypt time 0.3031198978424072s 
+Sensor node 0 transmitting at time=1584682812.0014162
+Aggregator received sensor data from ('10.0.0.2', 54813) at time=1584682812.0747633
+Aggregator received sensor data from ('10.0.0.3', 54715) at time=1584682812.0753245
+Aggregator received sensor data from ('10.0.0.1', 45946) at time=1584682812.0885913
+internal: Convolution time: (seconds) 0.014144659042358398s 
+Transmitting aggregated value at time=1584682812.0893464
+Query Received: at time=1584682812.1179054
+internal: Query Time for decrypt 0.13790273666381836s 
+internal: Simulation total time:  1.7126102447509766s 
+
+
+Starting simulation with parameters bandwidth=0.512 latency=5ms encrypted
+
+internal: query time to encrypt weights:  0.0005147457122802734s 
+Query sending: at time=1584682823.999425
+Received query at agg  at time=1584682824.0717263
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.2679107189178467s 
+Sensor node 2 transmitting at time=1584682827.4523237
+internal: Sensor node encrypt time 0.2862420082092285s 
+Sensor node 1 transmitting at time=1584682827.4875424
+internal: Sensor node encrypt time 0.28763675689697266s 
+Sensor node 0 transmitting at time=1584682827.49196
+Aggregator received sensor data from ('10.0.0.3', 50162) at time=1584682827.536765
+Aggregator received sensor data from ('10.0.0.2', 49306) at time=1584682827.5729969
+Aggregator received sensor data from ('10.0.0.1', 38721) at time=1584682827.5746176
+internal: Convolution time: (seconds) 0.03832697868347168s 
+Transmitting aggregated value at time=1584682827.5755322
+Query Received: at time=1584682827.5996766
+internal: Query Time for decrypt 0.14317536354064941s 
+internal: Simulation total time:  1.7444770336151123s 
+
+
+Starting simulation with parameters bandwidth=0.512 latency=10ms encrypted
+
+internal: query time to encrypt weights:  0.0004911422729492188s 
+Query sending: at time=1584682843.2706609
+Received query at agg  at time=1584682843.4104857
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.29732680320739746s 
+Sensor node 2 transmitting at time=1584682846.8228245
+internal: Sensor node encrypt time 0.30757594108581543s 
+Sensor node 1 transmitting at time=1584682846.8634276
+internal: Sensor node encrypt time 0.3103013038635254s 
+Sensor node 0 transmitting at time=1584682846.8698716
+Aggregator received sensor data from ('10.0.0.3', 60280) at time=1584682846.9619005
+Aggregator received sensor data from ('10.0.0.2', 58149) at time=1584682847.0077791
+Aggregator received sensor data from ('10.0.0.1', 42583) at time=1584682847.0115645
+internal: Convolution time: (seconds) 0.050035953521728516s 
+Transmitting aggregated value at time=1584682847.0124955
+Query Received: at time=1584682847.0584593
+internal: Query Time for decrypt 0.13639378547668457s 
+internal: Simulation total time:  1.9253904819488525s 
+
+
+Starting simulation with parameters bandwidth=0.512 latency=10ms encrypted
+
+internal: query time to encrypt weights:  0.0003871917724609375s 
+Query sending: at time=1584682857.8804185
+Received query at agg  at time=1584682858.012037
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.2631652355194092s 
+Sensor node 1 transmitting at time=1584682861.3225849
+internal: Sensor node encrypt time 0.2635505199432373s 
+Sensor node 2 transmitting at time=1584682861.3311546
+internal: Sensor node encrypt time 0.2611689567565918s 
+Sensor node 0 transmitting at time=1584682861.351561
+Aggregator received sensor data from ('10.0.0.2', 34322) at time=1584682861.4617393
+Aggregator received sensor data from ('10.0.0.3', 60447) at time=1584682861.4706798
+Aggregator received sensor data from ('10.0.0.1', 55649) at time=1584682861.4938533
+internal: Convolution time: (seconds) 0.03267717361450195s 
+Transmitting aggregated value at time=1584682861.4947777
+Query Received: at time=1584682861.5407152
+internal: Query Time for decrypt 0.13848137855529785s 
+internal: Simulation total time:  1.8057005405426025s 
+
+
+Starting simulation with parameters bandwidth=0.512 latency=10ms encrypted
+
+internal: query time to encrypt weights:  0.0005235671997070312s 
+Query sending: at time=1584682872.260323
+Received query at agg  at time=1584682872.3945112
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.30523014068603516s 
+Sensor node 2 transmitting at time=1584682875.7403748
+internal: Sensor node encrypt time 0.3111567497253418s 
+Sensor node 0 transmitting at time=1584682875.7489958
+internal: Sensor node encrypt time 0.3152632713317871s 
+Sensor node 1 transmitting at time=1584682875.760752
+Aggregator received sensor data from ('10.0.0.3', 53396) at time=1584682875.8805728
+Aggregator received sensor data from ('10.0.0.1', 34602) at time=1584682875.8910015
+Aggregator received sensor data from ('10.0.0.2', 55331) at time=1584682875.9030406
+internal: Convolution time: (seconds) 0.02288055419921875s 
+Transmitting aggregated value at time=1584682875.9038916
+Query Received: at time=1584682875.95133
+internal: Query Time for decrypt 0.12879061698913574s 
+internal: Simulation total time:  1.8208262920379639s 
+
+
+Starting simulation with parameters bandwidth=0.512 latency=20ms encrypted
+
+internal: query time to encrypt weights:  0.0004723072052001953s 
+Query sending: at time=1584682890.087236
+Received query at agg  at time=1584682890.3471987
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.29563283920288086s 
+Sensor node 1 transmitting at time=1584682893.5386322
+internal: Sensor node encrypt time 0.3053867816925049s 
+Sensor node 0 transmitting at time=1584682893.545121
+internal: Sensor node encrypt time 0.30257606506347656s 
+Sensor node 2 transmitting at time=1584682893.552102
+Aggregator received sensor data from ('10.0.0.2', 51057) at time=1584682893.8007019
+Aggregator received sensor data from ('10.0.0.1', 46432) at time=1584682893.805738
+Aggregator received sensor data from ('10.0.0.3', 51724) at time=1584682893.8132021
+internal: Convolution time: (seconds) 0.012972354888916016s 
+Transmitting aggregated value at time=1584682893.814267
+Query Received: at time=1584682893.9001734
+internal: Query Time for decrypt 0.053498029708862305s 
+internal: Simulation total time:  1.8674039840698242s 
+
+
+Starting simulation with parameters bandwidth=0.512 latency=20ms encrypted
+
+internal: query time to encrypt weights:  0.0004260540008544922s 
+Query sending: at time=1584682906.7076273
+Received query at agg  at time=1584682906.9641378
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.31020641326904297s 
+Sensor node 1 transmitting at time=1584682910.1918762
+internal: Sensor node encrypt time 0.3019218444824219s 
+Sensor node 0 transmitting at time=1584682910.2000043
+internal: Sensor node encrypt time 0.3020284175872803s 
+Sensor node 2 transmitting at time=1584682910.204652
+Aggregator received sensor data from ('10.0.0.2', 60882) at time=1584682910.4534986
+Aggregator received sensor data from ('10.0.0.1', 43097) at time=1584682910.4593112
+Aggregator received sensor data from ('10.0.0.3', 38843) at time=1584682910.4668376
+internal: Convolution time: (seconds) 0.013907194137573242s 
+Transmitting aggregated value at time=1584682910.4678519
+Query Received: at time=1584682910.5531507
+internal: Query Time for decrypt 0.03691720962524414s 
+internal: Simulation total time:  1.8834259510040283s 
+
+
+Starting simulation with parameters bandwidth=0.512 latency=20ms encrypted
+
+internal: query time to encrypt weights:  0.00040841102600097656s 
+Query sending: at time=1584682920.4048061
+Received query at agg  at time=1584682920.6618524
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.3173789978027344s 
+Sensor node 0 transmitting at time=1584682923.8960695
+internal: Sensor node encrypt time 0.31366968154907227s 
+Sensor node 1 transmitting at time=1584682923.9107306
+internal: Sensor node encrypt time 0.3267209529876709s 
+Sensor node 2 transmitting at time=1584682923.9375417
+Aggregator received sensor data from ('10.0.0.1', 52162) at time=1584682924.1574774
+Aggregator received sensor data from ('10.0.0.2', 36152) at time=1584682924.1721911
+Aggregator received sensor data from ('10.0.0.3', 44844) at time=1584682924.2013364
+internal: Convolution time: (seconds) 0.04434943199157715s 
+Transmitting aggregated value at time=1584682924.202452
+Query Received: at time=1584682924.2903855
+internal: Query Time for decrypt 0.040498971939086914s 
+internal: Simulation total time:  1.9270493984222412s 
+
+
+Starting simulation with parameters bandwidth=0.512 latency=50ms encrypted
+
+internal: query time to encrypt weights:  0.0003848075866699219s 
+Query sending: at time=1584682937.5505738
+Received query at agg  at time=1584682938.1655705
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.25940561294555664s 
+Sensor node 0 transmitting at time=1584682940.952499
+internal: Sensor node encrypt time 0.2736036777496338s 
+Sensor node 1 transmitting at time=1584682940.9658437
+internal: Sensor node encrypt time 0.2845335006713867s 
+Sensor node 2 transmitting at time=1584682940.9982555
+Aggregator received sensor data from ('10.0.0.1', 54534) at time=1584682941.5713925
+Aggregator received sensor data from ('10.0.0.2', 57836) at time=1584682941.5809834
+Aggregator received sensor data from ('10.0.0.3', 33595) at time=1584682941.6181967
+internal: Convolution time: (seconds) 0.04693102836608887s 
+Transmitting aggregated value at time=1584682941.6190822
+Query Received: at time=1584682941.8254128
+internal: Query Time for decrypt 0.03071308135986328s 
+internal: Simulation total time:  2.306443214416504s 
+
+
+Starting simulation with parameters bandwidth=0.512 latency=50ms encrypted
+
+internal: query time to encrypt weights:  0.00030684471130371094s 
+Query sending: at time=1584682951.4694948
+Received query at agg  at time=1584682952.0852575
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.29908204078674316s 
+Sensor node 0 transmitting at time=1584682954.9632955
+internal: Sensor node encrypt time 0.3072836399078369s 
+Sensor node 1 transmitting at time=1584682955.0132966
+internal: Sensor node encrypt time 0.3050522804260254s 
+Sensor node 2 transmitting at time=1584682955.0210528
+Aggregator received sensor data from ('10.0.0.1', 59917) at time=1584682955.5790367
+Aggregator received sensor data from ('10.0.0.2', 34824) at time=1584682955.628687
+Aggregator received sensor data from ('10.0.0.3', 59360) at time=1584682955.6377676
+internal: Convolution time: (seconds) 0.05932354927062988s 
+Transmitting aggregated value at time=1584682955.638761
+Query Received: at time=1584682955.8464444
+internal: Query Time for decrypt 0.029359817504882812s 
+internal: Simulation total time:  2.407090425491333s 
+
+
+Starting simulation with parameters bandwidth=0.512 latency=50ms encrypted
+
+internal: query time to encrypt weights:  0.0005171298980712891s 
+Query sending: at time=1584682965.876377
+Received query at agg  at time=1584682966.4913714
+internal: Started new listening for sensor nodes 0s 
+internal: Sensor node encrypt time 0.29052257537841797s 
+Sensor node 2 transmitting at time=1584682969.3238952
+internal: Sensor node encrypt time 0.29264211654663086s 
+Sensor node 1 transmitting at time=1584682969.3329005
+internal: Sensor node encrypt time 0.3009910583496094s 
+Sensor node 0 transmitting at time=1584682969.3399696
+Aggregator received sensor data from ('10.0.0.3', 39144) at time=1584682969.9424815
+Aggregator received sensor data from ('10.0.0.2', 47418) at time=1584682969.9481332
+Aggregator received sensor data from ('10.0.0.1', 49544) at time=1584682969.954951
+internal: Convolution time: (seconds) 0.013067960739135742s 
+Transmitting aggregated value at time=1584682969.9560277
+Query Received: at time=1584682970.1612763
+internal: Query Time for decrypt 0.03136444091796875s 
+internal: Simulation total time:  2.317324161529541s 

@@ -1,0 +1,29 @@
+File descriptions:
+
+aggregator_node.py  -
+  this is the code for an aggregation node.  It waits for input from a query
+  server, holds onto the weights for aggregation, and uses those weights when
+  receiving inputs from different input nodes.  In this case, it computes a
+  convolution over the mean.  When computation is complete, it transmits the
+  results to the query node
+query_node.py -
+  code for sending a query to the aggregator node, and waits for a result
+  from the aggregator.
+sensor_node.py -
+  simply takes input data and transmits to the aggregator node.
+
+Each of these nodes will produce an output file which logs its operations
+and latencies for those operations.
+
+sec_agg_simulator.py -
+  simulator code for instantiating mininet and setting up each
+  node in the network for communication.
+
+sec_agg_topo.py -
+  this is a mininet topology class, composed of three sensor nodes, an
+  aggregator node, and a query node.
+
+data_loader.py - just a utility file used to load data from one.csv
+one.csv - just a csv file containing example inputs for each input node
+private_key/public_key - used to encrypt the data so aggregator node can't
+                          read it (shared between query and input nodes)
