@@ -19,6 +19,10 @@ def write_to_timer_log(message):
     f.write(message + " at time=%s\n" %(time.time()))
     f.close()
 
+def write_diff_to_timer_log(message, time_diff):
+    f = open('log_times.txt', 'a')
+    f.write('internal: ' + message + " " + str(time_diff) + "s \n")
+    f.close()
 
 
 class Client:
@@ -55,7 +59,10 @@ def setup_and_transmit(ip_dest, port_dest, message, sensor_index):
     public_key = pickle.load( open( "public_key.p", "rb" ) )
     private_key = pickle.load(open( "private_key.p", "rb" ))
     client = Client(message, public_key, private_key)
-    data = pickle.dumps(client.mean())
+
+    sensor_encrypt_start = time.time()
+    data = pickle.dumps(client.encrypt_mean())
+    write_diff_to_timer_log("Sensor node encrypt time", time.time() - sensor_encrypt_start)
 
     write_to_timer_log("Sensor node " + str(sensor_index) + " transmitting")
     s.sendto(data, (ip_dest, port_dest) )

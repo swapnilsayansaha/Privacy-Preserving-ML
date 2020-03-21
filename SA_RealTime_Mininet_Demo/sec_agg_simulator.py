@@ -4,27 +4,26 @@ from mininet.topo import SingleSwitchTopo
 from sec_agg_topo import smc_topo
 from mininet.log import setLogLevel
 from mininet.cli import CLI
+from mininet.node import OVSController
+from mininet.link import TCLink
 
 import time
 import optparse
 import os
 
 
-# This parses a fraction given on the command line
-#  should be of the form X-Y where X is the number of input nodes
-#   and y is the number of computation nodes
-def parse_fractions(frac_str):
-    frac = [int(x) for x in frac_str.split('-')]
-    frac.insert(0, sum(frac))
-    return frac
-#setLogLevel('output')
 setLogLevel('debug')
+#setLogLevel('debug')
 
-parser = optparse.OptionParser()
-parser.add_option('-r', dest='ratios')
-(options, args) = parser.parse_args()
-net_params = parse_fractions(options.ratios)
+def write_diff_to_timer_log(message, time_diff):
+    f = open('log_times.txt', 'a')
+    f.write('internal: ' + message + " " + str(time_diff) + "s \n")
+    f.close()
 
+def write_message_to_timer_log(message):
+    f = open('log_times.txt', 'a')
+    f.write(message)
+    f.close()
 
 
 # Send sensor node values to aggregator node
@@ -64,16 +63,17 @@ def start_agg_query_nodes(query_node, aggregator_node):
     # Important - sleep for a bit to give the nodes time to set up
     time.sleep(2)
 
-# Net params - 0th position is total nodes, 1st is the num of inodes, 2nd is
-#  num of comp_nodes
 
-# First to set up the topology
-# Single switch and 3 hosts should work for now
-#topo = SingleSwitchTopo(net_params[0])
 
-topo = smc_topo(net_params[0])   #TODO: Pointless at the moment - the topo is static for 3 inodes
+parser = optparse.OptionParser()
+parser.add_option('--bandwidth', dest='bandwidth', type='float')
+parser.add_option('--latency', dest='latency', type='string')
+parser.add_option('--msg', dest='msg', type='string')
+(options, args) = parser.parse_args()
 
-net = Mininet(topo = topo)
+topo = smc_topo(options.bandwidth, options.latency)   #topo is static for 3 inodes
+
+net = Mininet(topo = topo, controller=OVSController, link=TCLink)
 net.start()
 
 hosts = net.hosts
@@ -87,6 +87,8 @@ print('len - input: ' + str(len(input_nodes)))
 print('query node: ' + str(query_node.IP()))
 print('agg_node: ' + str(agg_node.IP()))
 
+# Write to timer log file
+write_message_to_timer_log("\n\nStarting simulation with parameters bandwidth=%s latency=%s %s\n\n" % (str(options.bandwidth), options.latency, options.msg))
 
 #Set up aggregator and queryer listeners
 start_agg_query_nodes(query_node, agg_node)
@@ -94,20 +96,18 @@ start_agg_query_nodes(query_node, agg_node)
 print("Aggregator and Query set up!")
 print("Starting sensor transmissions!")
 
-# Important - sleep for a bit to give the nodes time to set up
-time.sleep(2)
 
 #Begin sensor node transmissions
 transmit_sensor_values(input_nodes, agg_node)
 
+time.sleep(5)
+
 print("End sensor transmissions")
-# Important - sleep for a bit to give the nodes time to set up
-time.sleep(2)
+
 
 # Measure the latency and bandwidth of each session
 
 # Stop the network
 net.stop()
-
 
 # Side note - you have to install packages from python -m -pip install

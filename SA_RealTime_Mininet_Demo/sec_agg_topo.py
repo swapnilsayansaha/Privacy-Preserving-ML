@@ -1,8 +1,9 @@
 from mininet.topo import Topo
+from mininet.link import TCLink
 
 class smc_topo( Topo ):
 
-    def __init__( self, num_nodes ):
+    def __init__( self, bandwidth, delay):
         "Create custom topo."
 
         # Initialize topology
@@ -32,19 +33,19 @@ class smc_topo( Topo ):
 
         # Add links
         # Links from inodes to switches
-        self.addLink(inode1, i1s)
-        self.addLink(inode2, i2s)
-        self.addLink(inode3, i3s)
+        self.addLink(inode1, i1s,  bw=bandwidth, delay=delay)
+        self.addLink(inode2, i2s,  bw=bandwidth, delay=delay)
+        self.addLink(inode3, i3s,  bw=bandwidth, delay=delay)
 
         # Links from inodes switches to central switch and to queryer/aggregator
-        self.addLink(i1s, s123)
-        self.addLink(i2s, s123)
-        self.addLink(i3s, s123)
-        self.addLink(s123, a1s)
-        self.addLink(s123, q1s)
+        self.addLink(i1s, s123,  bw=bandwidth, delay=delay)
+        self.addLink(i2s, s123,  bw=bandwidth, delay=delay)
+        self.addLink(i3s, s123,  bw=bandwidth, delay=delay)
+        self.addLink(s123, a1s,  bw=bandwidth, delay=delay)
+        self.addLink(s123, q1s,  bw=bandwidth, delay=delay)
         # Links from query/agg nodes to switches
-        self.addLink(a1s, anode1)
-        self.addLink(q1s, qnode1)
+        self.addLink(a1s, anode1,  bw=bandwidth, delay=delay)
+        self.addLink(q1s, qnode1,  bw=bandwidth, delay=delay)
 
 
 topos = { 'smc_topo': ( lambda: smc_topo() ) }

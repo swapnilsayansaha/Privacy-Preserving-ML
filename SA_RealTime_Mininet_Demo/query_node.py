@@ -21,6 +21,11 @@ def write_to_timer_log(message):
     f.write(message + " at time=%s\n" %(time.time()))
     f.close()
 
+def write_diff_to_timer_log(message, time_diff):
+    f = open('log_times.txt', 'a')
+    f.write('internal: ' + message + " " + str(time_diff) + "s \n")
+    f.close()
+
 def setup_node():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     return s
@@ -33,7 +38,8 @@ def load_encrypt_weights(n_clients):
     weights_encrypted = []
     for i in range(n_clients):
         w = int(weights[i,0])
-        weights_encrypted.append(public_key.encrypt(w))
+        #w = public_key.encrypt(w)
+        weights_encrypted.append(w)
     data=pickle.dumps(weights_encrypted)
 
     return private_key, data
@@ -72,8 +78,10 @@ def listen_for_data(sock, private_key, ip_src, port_src, num):
         f.write("Recieved data: %s, %s\n" % (addr, data))
 
         #receive the data
-        decrypted_convolve = private_key.decrypt(data)
-        f.write("Decrypted Values: %s, %s\n" % (addr, decrypted_convolve))
+        decrypt_time_start = time.time()
+        data = private_key.decrypt(data)
+        write_diff_to_timer_log("Query Time for decrypt", time.time() - decrypt_time_start)
+        f.write("Decrypted Values: %s, %s\n" % (addr, data))
 
         f.flush()
         break
@@ -82,9 +90,15 @@ def listen_for_data(sock, private_key, ip_src, port_src, num):
 
 n_clients = 3
 sock = setup_node()
+
+encrypt_weights_start = time.time()
 priv_key,data  = load_encrypt_weights(n_clients)
+write_diff_to_timer_log("query time to encrypt weights: ", time.time() - encrypt_weights_start)
+
 transmit_weights(sock, data, options.ip_dest, options.port_dest, options.num)
 
 print('setting up query listener on ' + str(options.ip_source))
 sock = setup_node()  # setup node again othewise we can't bind?
 listen_for_data(sock, priv_key, options.ip_source, options.port_source, options.num)
+
+write_diff_to_timer_log("Simulation total time: ", time.time() - encrypt_weights_start - 2) # This is the total time slept after query starts
