@@ -6,21 +6,26 @@ from mininet.log import setLogLevel
 from mininet.cli import CLI
 from mininet.node import OVSController
 from mininet.util import pmonitor
+from mininet.link import TCLink
 
 import time
 import optparse
 import os
 
+parser = optparse.OptionParser()
+parser.add_option('--bandwidth', dest='bandwidth', type='float')
+parser.add_option('--latency', dest='latency', type='string')
+(options, args) = parser.parse_args()
 
 def begin_node_comm(node, role):
 
     # Assume we installed under build/python and we are calling build/bin/millionaire...
     node.pexec("../bin/millionaire_prob_test -r " + str(role))
 
-setLogLevel('debug')
+setLogLevel('output')
 
-topo = smc_topo(1)
-net = Mininet(topo = topo, controller=OVSController)
+topo = smc_topo(options.bandwidth, options.latency)
+net = Mininet(topo = topo, controller=OVSController, link=TCLink)
 net.start()
 
 hosts = net.hosts
